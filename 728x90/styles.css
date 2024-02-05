@@ -1,0 +1,183 @@
+@font-face {
+  font-family: EMprintBold;
+  src: url(fonts/subset-EMprint-Bold.woff2);
+}
+
+@font-face {
+  font-family: EMprintSemiBold;
+  src: url(fonts/subset-EMprint-Semibold.woff2);
+}
+
+/* @font-face {
+  font-family: EMprintRegular;
+  src: url(fonts/subset-EMprint-Regular.woff2);
+} */
+
+sup, sub {
+  font-size: 50%;
+}
+
+html, body {
+  width:728px;
+  height:90px;
+  margin: 0;
+}
+
+#main,
+#background {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:728px;
+  height:90px;
+  background-color: #0C479D;
+}
+
+#main {
+  overflow:hidden;
+}
+
+#imageCont {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:728px;
+  height:90px;
+  overflow:hidden;
+}
+
+.full-width {
+  position:absolute;
+  left: 0px;
+  top: 0px;
+  width: 728px;
+  height: auto;
+}
+
+.copy {
+  font-family: "gillSans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  color: #ffffff;
+}
+
+.bold {
+  font-family: "EMprintBold", sans-serif;
+}
+
+.semibold {
+  font-family: "EMprintSemiBold", sans-serif;
+}
+
+.regular {
+  font-family: "EMprintRegular", sans-serif;
+}
+
+.copy1 {
+  font-size: 26px;
+  line-height: 24px;
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+.copy2 {
+  font-size: 15px;
+  line-height: 12px;
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+.terms-text {
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 15px;
+  text-align: left;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.absolute {
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  height: auto;
+}
+
+#copy1-large {
+  position: relative;
+  top: 7px;
+  left: -1px;
+  font-size: 45px;
+  line-height: 1;
+}
+
+.one-spacing {
+  letter-spacing: -0.07em;
+}
+
+.copy1 {
+  top: 28px;
+  left: 216px;
+}
+
+#copy2 {
+  top: 67px;
+  left: 296px;
+}
+
+#bike {
+  top: 90px;
+}
+
+#cta {
+  position: absolute;
+  text-align: center;
+  transform-origin: center;
+  border-radius: 100px;
+  top: 12px;
+  left: 280px;
+  background: none;
+  border: 1px #ffffff solid;
+  color: #fff;
+  font-family: "EMprintSemiBold", sans-serif;
+  font-size: 20px;
+  line-height: 21px;
+  width: 198px;
+  height: 40px;
+  padding-bottom: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cta-text {
+  position: relative;
+  top: 3px;
+}
+
+#chevron {
+  /* position: relative;
+  top: 13px; */
+  width: 8px;
+  height: 14px;
+}
+
+#bgExit {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 85;
+  background-color: rgba(255,255,255,0);
+  border:1px solid #000000;
+  box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
