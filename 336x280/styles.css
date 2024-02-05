@@ -130,7 +130,7 @@ html, body {
 
 #copy2 {
   top: 110px;
-  left: 192px;
+  left: 145px;
 }
 
 #bike {
@@ -142,17 +142,17 @@ html, body {
   position: absolute;
   text-align: center;
   transform-origin: center;
-  border-radius: 100px;
-  top: 35px;
-  left: 162px;
+  border-radius: 50px;
+  top: 49px;
+  left: 138px;
   background: none;
   border: 1px #ffffff solid;
   color: #fff;
   font-family: "EMprintSemiBold", sans-serif;
   font-size: 20px;
   line-height: 21px;
-  width: 154px;
-  height: 60px;
+  width: 175px;
+  height: 40px;
   padding-bottom: 2px;
   display: flex;
   justify-content: center;
@@ -161,7 +161,7 @@ html, body {
 
 #cta-text {
   position: relative;
-  top: 4px;
+  /* top: 4px; */
 }
 
 #chevron {
