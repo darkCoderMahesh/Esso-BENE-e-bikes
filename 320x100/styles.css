@@ -161,10 +161,10 @@ html, body {
 }
 
 #chevron {
-  /* position: relative;
-  top: 13px; */
-  width: 7px;
-  height: 13px;
+  position: relative;
+  top: 1px;
+  width: 10px;
+  height: 14px;
 }
 
 #bgExit {

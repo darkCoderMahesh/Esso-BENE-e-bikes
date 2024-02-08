@@ -76,7 +76,7 @@ html, body {
 
 .copy1 {
   font-size: 24px;
-  line-height: 27px;
+  line-height: 23px;
   text-align: center;
   text-align: -webkit-center;
 }
@@ -173,7 +173,7 @@ html, body {
 
 #chevron {
   position: relative;
-  /* top: 9px; */
+  top: 1px;
   width: 6px;
   height: 10px;
 }

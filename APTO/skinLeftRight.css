@@ -1,11 +1,11 @@
 @font-face {
   font-family: EMprintBold;
-  src: url(fonts/subset-EMprint-Bold.woff2);
+  src: url(subset-EMprint-Bold.woff2);
 }
 
 @font-face {
   font-family: EMprintSemiBold;
-  src: url(fonts/subset-EMprint-Semibold.woff2);
+  src: url(subset-EMprint-Semibold.woff2);
 }
 
 /* @font-face {
@@ -18,8 +18,8 @@ sup, sub {
 }
 
 html, body {
-  width:320px;
-  height:240px;
+  width:100%;
+  /* height:1500px; */
   margin: 0;
 }
 
@@ -28,9 +28,10 @@ html, body {
   position:absolute;
   left:0px;
   top:0px;
-  width:320px;
-  height:240px;
-  background-color: #0C479D;
+  width:100%;
+  height: 980px;
+  /* height: 600px; */
+  /* background-color: #98c5e6; */
 }
 
 #main {
@@ -41,8 +42,8 @@ html, body {
   position:absolute;
   left:0px;
   top:0px;
-  width:320px;
-  height:240px;
+  width:100%;
+  height:1500px;
   overflow:hidden;
 }
 
@@ -50,8 +51,7 @@ html, body {
   position:absolute;
   left: 0px;
   top: 0px;
-  width: 320px;
-  height: auto;
+  width: 100%;
 }
 
 .copy {
@@ -75,20 +75,21 @@ html, body {
 }
 
 .copy1 {
-  font-size: 33px;
-  line-height: 31px;
+  font-size: 70px;
+  line-height: 78px;
   text-align: center;
   text-align: -webkit-center;
 }
-.copy1 span{
-  display: block;
-  padding-top: 5px;
-}
+
 .copy2 {
-  font-size: 15px;
-  line-height: 18px;
+  font-size: 19px;
+  line-height: 16px;
   text-align: center;
   text-align: -webkit-center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .terms-text {
@@ -112,10 +113,10 @@ html, body {
 
 #copy1-large {
   position: relative;
-  top: -4px;
-  left: -5px;
-  font-size: 56px;
-  line-height: 1;
+  top: 15px;
+  left: -2px;
+  font-size: 47px;
+  line-height: 25px;
 }
 
 .one-spacing {
@@ -123,23 +124,31 @@ html, body {
 }
 
 .copy1 {
-  width: 130px;
-  top: 32px;
-  left: 146px;
+  font-size: 35px;
+  line-height: 37px;
+  text-align: center;
+  text-align: -webkit-center;
 }
 
 #copy1c {
-  top: 48px;
+  top: 93px;
 }
 
+.copy1{
+  top: 270px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 #copy2 {
-  top: 110px;
-  left: 127px;
+  top: 360px;
+  left: 0;
 }
 
 #bike {
-  top: 450px;
-  left: -20px;
+  top: 700px;
+  height: auto;
 }
 
 #cta {
@@ -147,15 +156,15 @@ html, body {
   text-align: center;
   transform-origin: center;
   border-radius: 100px;
-  top: 50px;
-  left: 121px;
+  top: 275px;
+  left: 53px;
   background: none;
   border: 1px #ffffff solid;
   color: #fff;
   font-family: "EMprintSemiBold", sans-serif;
-  font-size: 20px;
-  line-height: 21px;
-  width: 180px;
+  font-size: 19px;
+  line-height: 14px;
+  width: 190px;
   height: 40px;
   padding-bottom: 2px;
   display: flex;
@@ -165,14 +174,14 @@ html, body {
 
 #cta-text {
   position: relative;
-  /* top: 3px; */
+  /* top: 2px; */
 }
 
 #chevron {
   position: relative;
-  top: 1px;
-  width: 10px;
-  height: 15px;
+  /* top: 9px; */
+  width: 20px;
+  height: 17px;
 }
 
 #bgExit {
@@ -183,10 +192,20 @@ html, body {
   height: 100%;
   cursor: pointer;
   z-index: 85;
-  background-color: rgba(255,255,255,0);
-  border:1px solid #000000;
+  /* background-color: rgba(255,255,255,0);
+  border:1px solid #000000; */
   box-sizing:border-box;
   -ms-box-sizing:border-box;
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
+}
+/* .logo-place{
+  position: relative;
+  width: 100%;
+} */
+#logo{
+  width: 70%;
+  margin: 0 15%;
+  position: absolute;
+  bottom: 30px;
 }

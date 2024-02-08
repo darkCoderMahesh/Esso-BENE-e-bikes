@@ -76,7 +76,7 @@ html, body {
 
 .copy1 {
   font-size: 28px;
-  line-height: 32px;
+  line-height: 26px;
   text-align: center;
   text-align: -webkit-center;
 }
@@ -170,9 +170,9 @@ html, body {
 
 #chevron {
   position: relative;
-  /* top: 9px; */
-  width: 8px;
-  height: 14px;
+  top: 1px;
+  width: 10px;
+  height: 15px;
 }
 
 #bgExit {
