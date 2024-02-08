@@ -80,7 +80,10 @@ html, body {
   text-align: center;
   text-align: -webkit-center;
 }
-
+.copy1 span{
+  display: block;
+  padding-top: 5px;
+}
 .copy2 {
   font-size: 15px;
   line-height: 18px;

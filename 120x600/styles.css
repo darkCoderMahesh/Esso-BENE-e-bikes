@@ -75,12 +75,15 @@ html, body {
 }
 
 .copy1 {
-  font-size: 28px;
-  line-height: 32px;
+  font-size: 24px;
+  line-height: 27px;
   text-align: center;
   text-align: -webkit-center;
 }
-
+.copy1 span {
+  display: block;
+  padding-top: 5px;
+}
 .copy2 {
   font-size: 13px;
   line-height: 16px;
@@ -125,9 +128,6 @@ html, body {
 
 .copy1 {
   top: 63px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
 }
 
@@ -168,7 +168,7 @@ html, body {
 
 #cta-text {
   position: relative;
-  top: 2px;
+  /* top: 2px; */
 }
 
 #chevron {

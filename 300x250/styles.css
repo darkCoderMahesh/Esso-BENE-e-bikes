@@ -123,6 +123,10 @@ html, body {
   top: 34px;
   left: 151px;
 }
+.copy1 span {
+  display: block;
+  padding-top: 5px;
+}
 
 #copy1c {
   top: 61px;

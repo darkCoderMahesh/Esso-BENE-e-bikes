@@ -140,14 +140,14 @@ html, body {
   transform-origin: center;
   border-radius: 100px;
   top: 8px;
-  left: 52px;
+  left: 78px;
   background: none;
   border: 1px #ffffff solid;
   color: #fff;
   font-family: "EMprintSemiBold", sans-serif;
   font-size: 18px;
   line-height: 19px;
-  width: 216px;
+  width: 165px;
   height: 36px;
   padding-bottom: 2px;
   display: flex;
@@ -157,7 +157,7 @@ html, body {
 
 #cta-text {
   position: relative;
-  top: 2px;
+  /* top: 2px; */
 }
 
 #chevron {
